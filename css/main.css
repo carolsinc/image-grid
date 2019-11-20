@@ -16,7 +16,6 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   margin: 0;
 }
@@ -38,22 +37,22 @@ img {
 
   .photo:nth-child(2) {
     display: inline-block;
-      max-width: 50%;
+    max-width: 50%;
   }
 
   .photo:nth-child(3) {
     display: inline-block;
-      max-width: 50%;
+    max-width: 50%;
   }
 
   .photo:nth-child(4) {
     display: inline-block;
-      max-width: 50%;
+    max-width: 50%;
   }
 
   .photo:last-child {
     display: inline-block;
-      max-width: 50%;
+    max-width: 50%;
   }
 
   section {
@@ -71,27 +70,28 @@ img {
   }
 
   .photo:nth-child(2) {
-    max-width: 33.33%;
+    max-width: 33.3333%;
   }
 
   .photo:nth-child(3) {
-    max-width: 33.33%;
+    max-width: 33.3333%;
   }
 
   .photo:nth-child(4) {
-    max-width: 33.33%;
+    max-width: 33.3333%;
   }
+
 }
 
 @media only screen and (min-width: 60em) {
 
   .photo:last-child {
     display: inline-block;
-    max-width: 33.33%;
+    max-width: 33.3333%;
   }
 
   .photo:first-child {
-    max-width: 66.66%;
+    max-width: 66.6666%;
   }
 
 }
